@@ -1,0 +1,124 @@
+@font-face{
+	font-family: 'Wisdom Script';
+	src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+
+/*** Base Styles ***/
+
+body {
+	font-family: Montserrat, helvetica, arial, sans-serif;
+	color: black;
+}
+h1, h2, h3, h4 {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+/*** Grid ***/
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.half-width {
+	width: 600px;
+	float: left;
+}
+.third-width {
+	float: left;
+	width: 382px;
+}
+
+/*** Header ***/
+
+header h1 {
+	font-size: 30px;
+	margin: 0;
+	padding: 32px 0;
+}
+header span {
+	color: #77a466;
+}
+header nav {
+    float: right;
+		padding: 25px 0;
+}
+header nav ul li {
+    display: inline-block;
+}
+header nav ul li a {
+	color: #77a466;
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+header img {
+	border: solid 5px #77a466;
+	width: 1190px;
+}
+
+/*** Welcome ***/
+
+#welcome h2 {
+	color: #77a466;
+	font-size: 18px;
+	padding: 4px 0;
+}
+#welcome p {
+	font-size: 16px;
+	line-height: 25px;
+}
+#welcome .full-width {
+	border-bottom: solid 1px #e6e6e6;
+}
+
+/*** Content ***/
+
+#content h3 {
+	font-size: 12px;
+	padding-top: 10px;
+}
+#content ul {
+	color: #77a466;
+	list-style-type: none;
+	padding-left: 0;
+	line-height: 35px;
+}
+#content p {
+	font-size: 16px;
+	line-height: 21px;
+	width: 340px;
+}
+#content address {
+	line-height: 24px;
+	font-size: 16px;
+	font-style: normal;
+}
+#content .full-width {
+	border-bottom: solid 2px #e6e6e6;
+}
+#reviews {
+	border-left: solid 2px #e6e6e6;
+	border-right: solid 2px #e6e6e6;
+	padding-left: 25px;
+}
+#contact {
+	padding-left: 25px;
+}
+
+/*** Footer ***/
+
+#footer {
+	clear: both;
+	text-align: center;
+}
+#footer h4 {
+	font-size: 14px;
+}
+#footer span {
+	color: #77a466;
+	font-family: 'Wisdom Script', cursive;
+	text-transform: lowercase;
+}
